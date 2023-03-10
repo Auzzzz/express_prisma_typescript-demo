@@ -8,7 +8,7 @@ First time using Typescript, this is just a basic express API utilising a Primsa
 npm install
 
 // Preload the database
-npx prisma init --datasource-provider mysql
+node --require esbuild-register prisma/seed.ts
 
 npm run dev
 
